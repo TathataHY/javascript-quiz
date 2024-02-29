@@ -1,30 +1,46 @@
-# React + TypeScript + Vite
+# JavaScript Quiz
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción
 
-Currently, two official plugins are available:
+Este repositorio alberga un emocionante quiz de JavaScript construido con Vite y React. Ofrece una experiencia interactiva para que los usuarios pongan a prueba sus conocimientos en JavaScript mientras exploran las capacidades de estas tecnologías modernas. Es una herramienta educativa diseñada para fortalecer el entendimiento de conceptos clave de JavaScript y fomentar el aprendizaje interactivo en un entorno de desarrollo ágil y eficiente.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Imágenes del Proyecto
+Aquí hay algunas capturas de pantalla que muestran el proyecto en acción.
 
-## Expanding the ESLint configuration
+![image](https://github.com/TathataHY/javascript-quiz/assets/86846618/9df95e5a-77e2-4a18-9a1b-2a14610bc10b)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Características
 
-- Configure the top-level `parserOptions` property like this:
+- Quiz interactivo de JavaScript.
+- Utiliza Zustand para la gestión del estado.
+- Diseño intuitivo y adaptable.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Tecnologías utilizadas
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- [React](https://reactjs.org/) para la construcción de la interfaz de usuario.
+- [Zustand](https://zustand-demo.pmnd.rs/) para la gestión del estado de la aplicación.
+- [Vite](https://vitejs.dev/) como entorno de desarrollo rápido para React.
+
+## Instalación
+
+1. Clona este repositorio:
+   `git clone https://github.com/tathatahy/javascript-quiz.git`
+
+2. Navega a la carpeta del proyecto:
+   `cd javascript-quiz`
+
+3. Instala las dependencias:
+   `pnpm install`
+
+4. Ejecuta el proyecto:
+   `pnpm vite`
+
+Visita `http://localhost:5173` en tu navegador para ver la aplicación en funcionamiento.
+
+## Contribuciones
+
+Las contribuciones son siempre bienvenidas. Si encuentras algún problema o tienes alguna sugerencia, no dudes en abrir un issue o enviar un pull request.
+
+## Licencia
+
+Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE) para obtener más detalles.
